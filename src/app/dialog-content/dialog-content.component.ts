@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
-import swal from 'sweetalert';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-dialog-content',
@@ -16,7 +16,17 @@ export class DialogContentComponent {
   ) { }
 
   close(): void {
-    swal ( "Closing" ,  "Byeee" ,  "error" );
-    this.dialogRef.close();
+    Swal.fire({
+      title: 'Are you sure?',
+      text: 'You are about to close this dialog',
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonText: 'Yes, close it!',
+      cancelButtonText: 'No, keep it open'
+    }).then((result) => {
+      if (result.isConfirmed) {
+        this.dialogRef.close();
+      }
+    });
   }
 }
