@@ -1,0 +1,14 @@
+.example-list-wrapping {
+    max-width: 500px;
+}
+
+#property {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--mdc-list-list-item-supporting-text-font)!important;
+    line-height: var(--mdc-list-list-item-supporting-text-line-height)!important;
+    font-size: var(--mdc-list-list-item-supporting-text-size)!important;
+    font-weight: var(--mdc-list-list-item-supporting-text-weight)!important;
+    letter-spacing: var(--mdc-list-list-item-supporting-text-tracking)!important;
+    color: var(--mdc-list-list-item-supporting-text-color);
+}

@@ -1,0 +1,16 @@
+.mat-grid-tile-content {
+    display: block!important;
+    align-content: center!important;
+    justify-content: center;
+    padding: 10px;
+}
+
+.example-button-row {
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+}

@@ -1,0 +1,200 @@
+<ng-container *ngIf="player">
+
+    <mat-grid-list cols="{{breakpoint}}" rowHeight="{{breakpoint2}}" (window:resize)="onResize($event)">
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+                        <span>{{"fifa-all-stats.pace"| translate}}</span> {{paceValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{paceValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.acceleration"| translate}}</span> {{player.properties.pac.acceleration}} </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.sprint_speed"| translate}}</span> {{player.properties.pac.sprint_speed}} </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+
+                        <span>{{"fifa-all-stats.shooting"| translate}}</span> {{shoValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{shoValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.positioning"| translate}}</span> {{player.properties.sho.positioning}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.finishing"| translate}}</span> {{player.properties.sho.finishing}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.shot_power"| translate}}</span> {{player.properties.sho.shot_power}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.long_shots"| translate}}</span> {{player.properties.sho.long_shots}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.volleys"| translate}}</span> {{player.properties.sho.volleys}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property"> <span>{{"fifa-all-stats.penalties"| translate}}</span> {{player.properties.sho.penalties}}
+                    </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+                        <span>{{"fifa-all-stats.passing"| translate}}</span> {{passValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{passValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.vision"| translate}}</span> {{player.properties.pas.vision}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.crossing"| translate}}</span> {{player.properties.pas.crossing}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.fk_accuracy"| translate}}</span> {{player.properties.pas.free_kick_accuracy}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.short_passing"| translate}}</span> {{player.properties.pas.short_passing}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.long_passing"| translate}}</span> {{player.properties.pas.long_passing}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.curve"| translate}}</span> {{player.properties.pas.curve}}
+                    </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+                        <span>{{"fifa-all-stats.dribblingp"| translate}}</span> {{driValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{driValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.agility"| translate}}</span> {{player.properties.dri.agility}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.balance"| translate}}</span> {{player.properties.dri.balance}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.reactions"| translate}}</span> {{player.properties.dri.reactions}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.ball_control"| translate}}</span> {{player.properties.dri.ball_control}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.dribblingp"| translate}}</span> {{player.properties.dri.dribblingp}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.composure"| translate}}</span> {{player.properties.dri.composure}}
+                    </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+                        <span>{{"fifa-all-stats.deffending"| translate}}</span> {{defValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{defValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.interceptions"| translate}}</span> {{player.properties.def.interceptions}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.heading_accurancy"| translate}}</span> {{player.properties.def.heading_accuracy}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.marking"| translate}}</span> {{player.properties.def.marking}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.standing_tackle"| translate}}</span> {{player.properties.def.standing_tackle}}
+                    </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.sliding_tackle"| translate}}</span> {{player.properties.def.sliding_tackle}}
+                    </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+        <mat-grid-tile>
+            <mat-list style="width:100%; height: 100%; justify-content: center;">
+                <mat-list-item>
+                    <div matListItemTitle style="display: flex; justify-content:space-between;">
+                        <span>{{"fifa-all-stats.physicality"| translate}}</span> {{phyValue}}
+                    </div>
+                    <mat-progress-bar mode="determinate" value="{{phyValue}}"></mat-progress-bar>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <div>{{"fifa-all-stats.jumping"| translate}}</div>{{player.properties.phy.jumping}}</div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.stamina"| translate}}</span>{{player.properties.phy.stamina}} </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.strenght"| translate}}</span>{{player.properties.phy.strength}} </div>
+                </mat-list-item>
+                <mat-list-item>
+                    <div id="property">
+                        <span>{{"fifa-all-stats.aggression"| translate}}</span>{{player.properties.phy.aggression}} </div>
+                </mat-list-item>
+            </mat-list>
+        </mat-grid-tile>
+
+
+    </mat-grid-list>
+
+</ng-container>

@@ -1,0 +1,388 @@
+[{
+        "name": "Ronaldinho Gaúcho",
+        "photo": "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/763_ronaldinho.jpg",
+        "properties": {
+            "overall": 91,
+            "pac": {
+                "pace": 91,
+                "acceleration": 93,
+                "sprint_speed": 89
+            },
+            "sho": {
+                "shooting": 86,
+                "positioning": 85,
+                "finishing": 88,
+                "shot_power": 84,
+                "long_shots": 87,
+                "volleys": 80,
+                "penalties": 88
+            },
+            "pas": {
+                "passing": 88,
+                "vision": 90,
+                "crossing": 89,
+                "free_kick_accuracy": 89,
+                "short_passing": 88,
+                "long_passing": 82,
+                "curve": 87
+            },
+            "dri": {
+                "dribbling": 92,
+                "agility": 92,
+                "balance": 86,
+                "reactions": 91,
+                "ball_control": 92,
+                "dribblingp": 93,
+                "composure": 92
+            },
+            "def": {
+                "defending": 36,
+                "interceptions": 26,
+                "heading_accuracy": 51,
+                "marking": 35,
+                "standing_tackle": 40,
+                "sliding_tackle": 30
+            },
+            "phy": {
+                "physicality": 79,
+                "jumping": 84,
+                "stamina": 81,
+                "strength": 81,
+                "aggression": 68
+            },
+            "position": "CAM",
+            "height_cm": 182,
+            "nationality": "Brazil",
+            "club": "Retired"
+        },
+        "videos": [{
+                "url": "a1x0NvunKQ8"
+            },
+            {
+                "url": "9VgKcQegQNA"
+            },
+            {
+                "url": "ssEqmJHJBQM"
+            },
+            {
+                "url": "o1diW_2W-cM"
+            }
+        ],
+        "teams_history": [{
+                "team_name": "Grêmio",
+                "year": "1998-2001",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Gremio.svg/800px-Gremio.svg.png"
+            },
+            {
+                "team_name": "Paris Saint-Germain",
+                "year": "2001-2003",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/800px-Paris_Saint-Germain_F.C..svg.png"
+            },
+            {
+                "team_name": "Barcelona",
+                "year": "2003-2008",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/FC_Barcelona_2002.png"
+            },
+            {
+                "team_name": "AC Milan",
+                "year": "2008-2011",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/800px-Logo_of_AC_Milan.svg.png"
+            },
+            {
+                "team_name": "Flamengo",
+                "year": "2011-2012",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Flamengo_braz_logo.svg/800px-Flamengo_braz_logo.svg.png"
+
+            },
+            {
+                "team_name": "Atlético Mineiro",
+                "year": "2012-2014",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Clube_Atl%C3%A9tico_Mineiro_crest.svg/800px-Clube_Atl%C3%A9tico_Mineiro_crest.svg.png"
+            },
+            {
+                "team_name": "Querétaro",
+                "year": "2014-2015",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Quer%C3%A9taro_F.C._logo.svg/800px-Quer%C3%A9taro_F.C._logo.svg.png"
+            },
+            {
+                "team_name": "Fluminense",
+                "year": "2015-2018",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Fluminense_fc_logo.svg/800px-Fluminense_fc_logo.svg.png"
+            },
+            {
+                "team_name": "Retired",
+                "year": "2018-present",
+                "logo_url": "https://th.bing.com/th/id/OIP.ZWeyZSUbqFK0w0aDGvp3bQHaEy?pid=ImgDet&rs=1"
+
+            }
+        ]
+    },
+    {
+        "name": "Eden Hazard",
+        "photo": "https://phantom-marca.unidadeditorial.es/04af20f199d2fe40e48b3c8142125761/resize/828/f/webp/assets/multimedia/imagenes/2022/11/02/16673750785705.jpg",
+        "properties": {
+            "overall": 88,
+            "pac": {
+                "pace": 90,
+                "acceleration": 92,
+                "sprint_speed": 89
+            },
+            "sho": {
+                "shooting": 83,
+                "positioning": 87,
+                "finishing": 81,
+                "shot_power": 87,
+                "long_shots": 78,
+                "volleys": 75,
+                "penalties": 86
+            },
+            "pas": {
+                "passing": 86,
+                "vision": 88,
+                "crossing": 82,
+                "free_kick_accuracy": 79,
+                "short_passing": 87,
+                "long_passing": 79,
+                "curve": 83
+            },
+            "dri": {
+                "dribbling": 93,
+                "agility": 94,
+                "balance": 91,
+                "reactions": 90,
+                "ball_control": 93,
+                "dribblingp": 95,
+                "composure": 89
+            },
+            "def": {
+                "defending": 35,
+                "interceptions": 30,
+                "heading_accuracy": 54,
+                "marking": 34,
+                "standing_tackle": 27,
+                "sliding_tackle": 22
+            },
+            "phy": {
+                "physicality": 66,
+                "jumping": 56,
+                "stamina": 79,
+                "strength": 61,
+                "aggression": 54
+            },
+            "position": "LW",
+            "height_cm": 173,
+            "nationality": "Belgium",
+            "club": "Real Madrid"
+        },
+        "videos": [{
+                "url": "7QU7PVXKX9g"
+            },
+            {
+                "url": "LaRPbel21Ec"
+            },
+            {
+                "url": "3ksfh_Knhsk"
+            },
+            {
+                "url": "N6x81z2ZFXM"
+            }
+        ],
+        "teams_history": [{
+                "team_name": "Lille",
+                "year": "2005-2012",
+                "logo_url": "https://axeptio.imgix.net/2022/09/660d447e-263a-4783-8c8d-c0eeae6c26b9.png?auto=format&fit=crop&w=170&h=auto&dpr=1"
+            },
+            {
+                "team_name": "Chelsea",
+                "year": "2012-2019",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/800px-Chelsea_FC.svg.png"
+            },
+            {
+                "team_name": "Real Madrid",
+                "year": "2019-present",
+                "logo_url": "https://www.realmadrid.com/StaticFiles/RealMadridResponsive/images/header_logo.svg"
+            }
+        ]
+    },
+    {
+        "name": "Xavi",
+        "photo": "https://fotografias.lasexta.com/clipping/cmsimages02/2023/02/11/1E988B6D-D419-41F9-8C63-FC90E71FF790/xavi-hernandez-entrenador-barca_97.jpg?crop=1200,675,x0,y5&width=1600&height=900&optimize=low&format=webply",
+        "properties": {
+            "overall": 91,
+            "pac": {
+                "pace": 69,
+                "acceleration": 64,
+                "sprint_speed": 73
+            },
+            "sho": {
+                "shooting": 69,
+                "positioning": 76,
+                "finishing": 60,
+                "shot_power": 79,
+                "long_shots": 68,
+                "volleys": 66,
+                "penalties": 73
+            },
+            "pas": {
+                "passing": 93,
+                "vision": 94,
+                "crossing": 83,
+                "free_kick_accuracy": 85,
+                "short_passing": 96,
+                "long_passing": 92,
+                "curve": 84
+            },
+            "dri": {
+                "dribbling": 90,
+                "agility": 74,
+                "balance": 84,
+                "reactions": 91,
+                "ball_control": 96,
+                "dribblingp": 91,
+                "composure": 95
+            },
+            "def": {
+                "defending": 70,
+                "interceptions": 81,
+                "heading_accuracy": 54,
+                "marking": 69,
+                "standing_tackle": 72,
+                "sliding_tackle": 68
+            },
+            "phy": {
+                "physicality": 63,
+                "jumping": 54,
+                "stamina": 79,
+                "strength": 56,
+                "aggression": 62
+            },
+            "position": "CM",
+            "height_cm": 170,
+            "nationality": "Spain",
+            "club": "Retired"
+        },
+        "videos": [{
+                "url": "cfHhhyWAUZE"
+            },
+            {
+                "url": "7yuEt7GzbiU"
+            },
+            {
+                "url": "nYbAG7Shk7I"
+            },
+            {
+                "url": "W6Tjz_weKOY"
+            }
+        ],
+        "teams_history": [{
+                "team_name": "Barcelona B",
+                "year": "1998-1999",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/FC_Barcelona_2002.png"
+            },
+            {
+                "team_name": "Barcelona",
+                "year": "1998-2015",
+                "logo_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/FC_Barcelona_2002.png"
+
+            },
+            {
+                "team_name": "Al-Sadd",
+                "year": "2015-2019",
+                "logo_url": "https://en.wikipedia.org/wiki/Al_Sadd_SC#/media/File:Logo_of_Al_Sadd_2020.png"
+            },
+            {
+                "team_name": "Retired",
+                "year": "2019-present",
+                "logo_url": "https://th.bing.com/th/id/OIP.ZWeyZSUbqFK0w0aDGvp3bQHaEy?pid=ImgDet&rs=1"
+            }
+        ]
+    },
+    {
+        "name": "Luka Modrić",
+        "photo": "https://s1.eestatic.com/2022/11/09/deportes/futbol/mundial/717188508_228579825_1706x960.jpg",
+        "properties": {
+            "overall": 89,
+            "pac": {
+                "pace": 75,
+                "acceleration": 70,
+                "sprint_speed": 80
+            },
+            "sho": {
+                "shooting": 83,
+                "positioning": 79,
+                "finishing": 72,
+                "shot_power": 87,
+                "long_shots": 86,
+                "volleys": 79,
+                "penalties": 71
+            },
+            "pas": {
+                "passing": 92,
+                "vision": 91,
+                "crossing": 86,
+                "free_kick_accuracy": 83,
+                "short_passing": 94,
+                "long_passing": 92,
+                "curve": 85
+            },
+            "dri": {
+                "dribbling": 91,
+                "agility": 87,
+                "balance": 81,
+                "reactions": 89,
+                "ball_control": 93,
+                "dribblingp": 92,
+                "composure": 91
+            },
+            "def": {
+                "defending": 72,
+                "interceptions": 76,
+                "heading_accuracy": 61,
+                "marking": 70,
+                "standing_tackle": 73,
+                "sliding_tackle": 69
+            },
+            "phy": {
+                "physicality": 66,
+                "jumping": 59,
+                "stamina": 90,
+                "strength": 66,
+                "aggression": 62
+            },
+            "position": "CM",
+            "height_cm": 172,
+            "nationality": "Croatia",
+            "club": "Real Madrid"
+        },
+        "videos": [{
+                "url": "hHM6maAKTfI"
+            },
+            {
+                "url": "yN-8hyZxdyg"
+            },
+            {
+                "url": "IsIXvCJmhbw"
+            },
+            {
+                "url": "atReonbrBbk"
+            }
+        ],
+        "teams_history": [{
+                "team_name": "Dinamo Zagreb",
+                "year": "2003-2008",
+                "logo_url": "https://dinamo.blob.core.windows.net/dinamo/Repository/2015/8/dinamo_grb_logo_200_200x200.png"
+            },
+            {
+                "team_name": "Tottenham Hotspur",
+                "year": "2008-2012",
+                "logo_url": "https://th.bing.com/th/id/R.d653022553d70f1e01d32dc892849242?rik=rsQl8cqAGs2Oxw&riu=http%3a%2f%2flofrev.net%2fwp-content%2fphotos%2f2014%2f08%2fTottenham-Hotspur-FC-Logo.png&ehk=EMYvrG0DRc378W%2bzBPEngmvno6gfsWJRyrsgc04WNWs%3d&risl=&pid=ImgRaw&r=0"
+            },
+            {
+                "team_name": "Real Madrid",
+                "year": "2012-present",
+                "logo_url": "https://www.realmadrid.com/StaticFiles/RealMadridResponsive/images/header_logo.svg"
+            }
+        ]
+    }
+
+]

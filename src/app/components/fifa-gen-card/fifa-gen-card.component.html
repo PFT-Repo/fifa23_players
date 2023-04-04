@@ -1,0 +1,37 @@
+<ng-container *ngIf="player">
+
+    <div class="center m-5">
+        <mat-card class="example-card">
+            <mat-card-header class="center my-5">
+                <mat-card-title>{{player.name}}</mat-card-title>
+                <mat-card-subtitle>{{player.properties.overall}}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-grid-list style="margin: 15px;padding: auto;" cols="3" rowHeight=".5:1">
+                <mat-grid-tile colspan="1" rowspan="1">
+                    <mat-list>
+                        <mat-list-item>
+                            <span matListItemLine>{{player.properties.position}}</span>
+                        </mat-list-item>
+                        <mat-list-item> <span matListItemLine>{{player.properties.height_cm}}  </span></mat-list-item>
+                        <mat-list-item> <span matListItemLine>{{player.properties.nationality}}  </span></mat-list-item>
+                        <mat-list-item> <span matListItemLine>{{player.properties.club }}</span></mat-list-item>
+                    </mat-list>
+                </mat-grid-tile>
+                <mat-grid-tile colspan="2" rowspan="1">
+                    <img mat-card-lg-image src="{{player.photo}}" alt="Photo of Player">
+                </mat-grid-tile>
+
+            </mat-grid-list>
+            <mat-card-content>
+                <mat-grid-list cols="2" rowHeight="1:0.3">
+                    <mat-grid-tile>{{player.properties.pac.pace}} {{"fifa-gen-card.PAC"| translate}} </mat-grid-tile>
+                    <mat-grid-tile>{{player.properties.sho.shooting}} {{"fifa-gen-card.SHO"| translate}}</mat-grid-tile>
+                    <mat-grid-tile>{{player.properties.pas.passing}} {{"fifa-gen-card.PAS"| translate}}</mat-grid-tile>
+                    <mat-grid-tile>{{player.properties.dri.dribblingp}} {{"fifa-gen-card.DRI"| translate}}</mat-grid-tile>
+                    <mat-grid-tile>{{player.properties.def.defending}} {{"fifa-gen-card.DEF"| translate}}</mat-grid-tile>
+                    <mat-grid-tile>{{player.properties.phy.physicality}} {{"fifa-gen-card.PHY"| translate}}</mat-grid-tile>
+                </mat-grid-list>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</ng-container>

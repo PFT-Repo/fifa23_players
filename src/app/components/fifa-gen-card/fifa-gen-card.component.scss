@@ -1,0 +1,26 @@
+$margin-max: 2.5rem;
+.example-card {
+    min-width: 320px;
+    border-radius: 5%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+mat-card-image {
+    background-size: contain;
+}
+
+.my-5 {
+    margin-top: $margin-max;
+    margin-bottom: $margin-max;
+}
+
+.m-5 {
+    padding-top: $margin-max/3;
+    padding-bottom: $margin-max/3;
+}

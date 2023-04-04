@@ -1,0 +1,71 @@
+        .container {
+            height: 100vh;
+            width: 100%;
+            text-align: center;
+            align-items: stretch;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            h1 {
+                font-size: 45px;
+                text-decoration: underline;
+            }
+            h3 {
+                font-size: 27px;
+            }
+            button {
+                display: block;
+            }
+        }
+        
+        .gradient-background {
+            background: linear-gradient(270deg, #ffcc00, #f3f3f3);
+            background-size: 400% 400%;
+            animation: gradient-animation 30s ease infinite;
+            -webkit-animation: gradient-animation 30s ease infinite;
+            -moz-animation: gradient-animation 30s ease infinite;
+        }
+        
+        @-webkit-keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+        
+        @-moz-keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%
+            }
+            50% {
+                background-position: 100% 50%
+            }
+            100% {
+                background-position: 0% 50%
+            }
+        }
+        
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .gone {
+            opacity: 0;
+            max-width: .1px;
+            overflow: hidden;
+            font-size: .1px;
+        }

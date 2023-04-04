@@ -1,0 +1,9 @@
+<h2 style="width:100%; justify-self: center; text-align: center;">{{player.name}}</h2>
+<mat-grid-list cols="{{breakpoint}}" rowHeight="1:1" (window:resize)="onResize($event)">
+    <mat-grid-tile *ngFor="let video of videos">
+        <div class="mat-grid-tile-content">
+            <app-teams-card [video]="video"></app-teams-card>
+        </div>
+
+    </mat-grid-tile>
+</mat-grid-list>

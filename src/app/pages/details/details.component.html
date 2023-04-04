@@ -1,0 +1,21 @@
+<mat-grid-list cols="{{breakpoint}}" rowHeight="{{breakpoint2}}" (window:resize)="onResize($event)">
+    <mat-grid-tile>
+        <div class="mat-grid-tile-content">
+            <app-fifa-gen-card [player]="player">
+            </app-fifa-gen-card>
+            <div class="example-button-row">
+                <button mat-raised-button color="accent" [routerLink]="['../videos']">{{"goVideos"| translate}}</button>
+                <button mat-raised-button color="warn" [routerLink]="['../teams']">{{"goTeams"| translate}}</button>
+            </div>
+        </div>
+
+
+    </mat-grid-tile>
+    <mat-grid-tile style="overflow: scroll;">
+        <div class="mat-grid-tile-content">
+            <app-fifa-all-stats [player]="player">
+            </app-fifa-all-stats>
+        </div>
+
+    </mat-grid-tile>
+</mat-grid-list>

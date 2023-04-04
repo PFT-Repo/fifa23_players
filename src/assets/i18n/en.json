@@ -1,0 +1,59 @@
+{
+    "homePage": {
+        "Selected": "Selected",
+        "Players": "Players",
+        "Idols": "Idols",
+        "Heroes": "Heroes",
+        "Show_Me_btn": "Show Me"
+    },
+    "fifa-gen-card": {
+        "PAC": "PAC",
+        "SHO": "SHO",
+        "PAS": "PAS",
+        "DRI": "DRI",
+        "DEF": "DEF",
+        "PHY": "PHY"
+    },
+    "team_historial": "team historial",
+    "fulDetailBtn": "See Details",
+    "goVideos": "See Videos",
+    "goTeams": "See Teams",
+    "fifa-all-stats": {
+        "pace": "Pace",
+        "acceleration": "Acceleration",
+        "sprint_speed": "Sprint Speed",
+        "shooting": "Shooting",
+        "positioning": "Positioning",
+        "finishing": "Finishing",
+        "shot_power": "Shot Power",
+        "long_shots": "Long Shots",
+        "volleys": "volleys",
+        "penalties": "Penalties",
+        "passing": "Passing",
+        "vision": "Vision",
+        "crossing": "Crossing",
+        "fk_accuracy": "Fk Accuracy",
+        "short_passing": "Short Passing",
+        "long_passing": "Long Passing",
+        "curve": "Curve",
+        "agility": "Agility",
+        "balance": "Balance",
+        "reactions": "Reactions",
+        "ball_control": "Ball Control",
+        "dribblingp": "Dribbling",
+        "composure": "Composure",
+        "deffending": "Deffending",
+        "interceptions": "Interceptions",
+        "heading_accurancy": "Heading Accurancy",
+        "marking": "Marking",
+        "standing_tackle": "Standing Tackle",
+        "sliding_tackle": "Sliding Tackle",
+        "physicality": "Physicality",
+        "jumping": "Jumping",
+        "stamina": "Stamina",
+        "strenght": "Strenght",
+        "aggression": "Aggression"
+    }
+
+
+}
