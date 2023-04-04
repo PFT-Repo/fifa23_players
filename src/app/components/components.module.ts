@@ -6,14 +6,12 @@ import { MaterialModule } from '../material/material.module';
 import { TranslateModule } from '@ngx-translate/core';
 import { HttpClientModule } from '@angular/common/http';
 import { TeamsCardComponent } from './teams-card/teams-card.component';
-import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 
 @NgModule({
   declarations: [
     FifaGenCardComponent,
     FifaAllStatsComponent,
     TeamsCardComponent,
-    BreadcrumbComponent
   ],
   imports: [
     CommonModule,
