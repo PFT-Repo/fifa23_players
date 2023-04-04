@@ -1,5 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import swal from 'sweetalert';
 
 @Component({
   selector: 'app-dialog-content',
@@ -15,6 +16,7 @@ export class DialogContentComponent {
   ) { }
 
   close(): void {
+    swal ( "Closing" ,  "Byeee" ,  "error" );
     this.dialogRef.close();
   }
 }
