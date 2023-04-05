@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PlayerService } from 'src/app/services/player.service';
+import { BreadcrumbService } from 'xng-breadcrumb';
 
 @Component({
   selector: 'app-videos',
@@ -15,7 +16,9 @@ export class VideosComponent {
   videos:any[]=[];
   id!: string;
 
-  constructor(private route: ActivatedRoute,private service:PlayerService){
+  constructor(private route: ActivatedRoute,private service:PlayerService,
+    private breadcrumbService: BreadcrumbService) {
+    this.breadcrumbService.set('@ChildOne', 'Child One');
 
     this.breakpoint = (window.innerWidth <= this.mobileBreakdown) ? 1 : (window.innerWidth <= this.midTabBreakdown) ? 1:2;
 

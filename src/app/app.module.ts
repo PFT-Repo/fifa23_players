@@ -15,6 +15,7 @@ import { DetailsComponent } from './pages/details/details.component';
 import { ComponentsModule } from './components/components.module';
 import { PlayersComponent } from './pages/players/players.component';
 import { DialogContentComponent } from './dialog-content/dialog-content.component';
+import { BreadcrumbModule, BreadcrumbService } from 'xng-breadcrumb';
 
 export function httpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -28,7 +29,8 @@ export function httpLoaderFactory(http: HttpClient) {
     TeamsComponent,
     DetailsComponent,
     PlayersComponent,
-    DialogContentComponent
+    DialogContentComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -43,9 +45,10 @@ export function httpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     MaterialModule,
     YouTubePlayerModule,
+    BreadcrumbModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [BreadcrumbService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

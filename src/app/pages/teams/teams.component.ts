@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PlayerService } from 'src/app/services/player.service';
+import { BreadcrumbService } from 'xng-breadcrumb';
 
 @Component({
   selector: 'app-teams',
@@ -15,8 +16,9 @@ export class TeamsComponent {
   breakpoint: number;
   mobileBreakdown= 640;
   midTabBreakdown= 1024;
-  constructor(private route: ActivatedRoute, private service : PlayerService){
-
+  constructor(private route: ActivatedRoute, private service : PlayerService,
+    private breadcrumbService: BreadcrumbService) {
+    this.breadcrumbService.set('@ChildOne', 'Child One');
     this.breakpoint = (window.innerWidth <= this.mobileBreakdown) ? 1 : (window.innerWidth <= this.midTabBreakdown) ? 1:3;
 
     this.route.params.subscribe(params => {

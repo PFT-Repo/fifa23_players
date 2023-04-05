@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { PlayerService } from 'src/app/services/player.service';
+import { BreadcrumbService } from 'xng-breadcrumb';
 
 @Component({
   selector: 'app-players',
@@ -14,7 +15,9 @@ export class PlayersComponent {
   midTabBreakdown= 1024;
   players:any;
   
-  constructor(private service:PlayerService, private router:Router){
+  constructor(private service:PlayerService, private router:Router,
+    private breadcrumbService: BreadcrumbService) {
+    this.breadcrumbService.set('@ChildOne', 'Child One');
     this.service.imgList;
     this.breakpoint = (window.innerWidth <= this.mobileBreakdown) ? 1 : (window.innerWidth <= this.midTabBreakdown) ? 2:3;
     }

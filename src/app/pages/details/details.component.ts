@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { dataInterface } from 'src/app/interfaces/dataInterface';
 import { PlayerService } from 'src/app/services/player.service';
+import { BreadcrumbService } from 'xng-breadcrumb';
 
 @Component({
   selector: 'app-details',
@@ -16,7 +17,9 @@ export class DetailsComponent {
   id!: string;
   player!:dataInterface;
 
-  constructor(private route: ActivatedRoute, private service : PlayerService, private router:Router){
+  constructor(private route: ActivatedRoute, private service : PlayerService, private router:Router,
+    private breadcrumbService: BreadcrumbService) {
+    this.breadcrumbService.set('@ChildOne', 'Child One');
 
     this.breakpoint = (window.innerWidth <= this.mobileBreakdown) ? 1 : (window.innerWidth <= this.midTabBreakdown) ? 1:2;
     this.breakpoint2 = (window.innerWidth <= this.mobileBreakdown) ? "1:2" : (window.innerWidth <= this.midTabBreakdown) ? "1:1":"1:1";

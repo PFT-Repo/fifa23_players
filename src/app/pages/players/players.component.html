@@ -1,12 +1,18 @@
+<xng-breadcrumb [separator]="iconTemplate"></xng-breadcrumb>
+<ng-template #iconTemplate>
+    <mat-icon>chevron_right</mat-icon>
+</ng-template>
 <mat-grid-list style="margin: 10px;" cols="{{breakpoint}}" rowHeight="1:.5" (window:resize)="onResize($event)">
-    <mat-grid-tile *ngFor="let play of players">
-        <mat-list-item style="width: 100%; justify-content: center; text-align: center;">
+    <mat-grid-tile id="#buttonDetailsContainer" *ngFor="let play of players">
+        <mat-list-item style="width: 50%; justify-content: center; text-align: center;">
             <div matListItemTitle>
                 <span>{{play.name}}</span>
             </div>
         </mat-list-item>
-        <mat-list-item>
-            <button mat-button style="padding: 2.5em;" (click)="goDetails(play.name)">{{"fulDetailBtn" | translate}}</button>
-        </mat-list-item>
+        <mat-action-list>
+            <div id="buttonDetailsContainer">
+                <button id="buttonDetails" mat-raised-button (click)="goDetails(play.name)">{{"fulDetailBtn" | translate}}</button>
+            </div>
+        </mat-action-list>
     </mat-grid-tile>
 </mat-grid-list>

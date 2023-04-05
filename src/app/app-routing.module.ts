@@ -7,30 +7,58 @@ import { VideosComponent } from './pages/videos/videos.component';
 import { WelcomeComponent } from './pages/welcome/welcome.component';
 
 const routes: Routes = [
-  {path:"",component:WelcomeComponent},
-  {path:'players', children:[
-      {path:"",component:PlayersComponent, data:{
-        breadcum:"list"
-      }},
-      {path:":id", children:[
-        {path:"", redirectTo:'details',pathMatch:"full"},
-        {path:"details", component:DetailsComponent, data:{
-          breadcum:"details"
-        }},
-        {path:"videos",component:VideosComponent, data:{
-        breadcum:"videos"
-      }},
-        {path:"teams",component:TeamsComponent, data:{
-        breadcum:"teams"
-      }}
-      ], data:{
-        breadcum:"player"
-      }}],
-      data:{
-        breadcum:"players"
-      }
+  {
+    path: "",
+    component: WelcomeComponent
   },
-  {path:"**", redirectTo:"",pathMatch:"full"}
+  {
+    path: 'players',
+    children: [
+      {
+        path: "",
+        component: PlayersComponent,
+        data: {
+          breadcum: "list"
+        }
+      },
+      {
+        path: ":id",
+        children: [
+          {
+            path: "",
+            redirectTo: 'details'
+            , pathMatch: "full"
+          },
+          {
+            path: "details",
+            component: DetailsComponent,
+            data: {
+              breadcum: "details"
+            }
+          },
+          {
+            path: "videos",
+            component: VideosComponent,
+            data: {
+              breadcum: "videos"
+            }
+          },
+          {
+            path: "teams",
+            component: TeamsComponent,
+            data: {
+              breadcum: "teams"
+            }
+          }
+        ], data: {
+          breadcum: "player"
+        }
+      }],
+    data: {
+      breadcum: "players"
+    }
+  },
+  { path: "**", redirectTo: "", pathMatch: "full" }
 ];
 
 @NgModule({
